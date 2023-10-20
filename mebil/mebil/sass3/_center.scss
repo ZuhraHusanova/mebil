@@ -1,0 +1,40 @@
+.center {
+    background: #D7E8ED;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    text-align: center;
+
+    &__title {
+        color: var(--text-color, #414141);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.27px;
+        padding-bottom: 15px;
+        padding-top: 65px;
+    }
+
+    &__border {
+        background: #245462;
+        width: 50px;
+        height: 1px;
+        margin: 0 auto;
+
+    }
+
+    &__text {
+        color: #686868;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140.188%;
+        max-width: 535px;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+}

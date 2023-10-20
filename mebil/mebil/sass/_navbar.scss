@@ -1,0 +1,36 @@
+.navbar {
+    height: 38px;
+    background-color: #313131;
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__start {
+        color: #FFF;
+        font-size: 14px;
+        font-family: Roboto;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__end {
+        color: #FFF;
+        font-size: 14px;
+        font-family: Roboto;
+        display: flex;
+        gap: 30px;
+        margin-left: 652px;
+        &__img1{
+            height: 17px;
+            width: 17px;
+            color: #FFF;
+        }
+        &__img2{
+            height: 16px;
+            width: 29px;
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+.header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__input {
+        width: 839px;
+        height: 50px;
+        border: 1px solid #E6E6E6;
+        margin: 0px 38px ;
+        img{
+            margin:  18px 15px;
+        }
+        input{
+            border: none;
+            position: absolute;
+            top: 78px;
+        }
+    }
+}
